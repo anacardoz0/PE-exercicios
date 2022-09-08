@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+	
+	int horas[5], minutos[5], segundos[5];
+	int i;
+	
+	//horas, minutos e segundos
+	for(i=0; i<5; i++){
+		printf("\nDigite o valor da horas: ");
+		scanf("%d", &horas[i]);
+	minutos[i] = horas[i] * 60;	
+	segundos[i] = minutos[i] * 60;
+	printf ("horas: %d, minutos: %d, segundos: %d", horas[i], minutos[i],segundos[i]);
+	}
+
+	return 0;
+}
