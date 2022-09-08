@@ -21,9 +21,8 @@ for (i=0;i<3; i++){
 
 //média
 for(i=0;i<3;i++){
-
 media[i] = (nota1[i] + nota2[i]) / 2;
-printf("Media das notas: %f\n", media[i]);
+printf("Media das notas: %2.f\n", media[i]);
 }
 	return 0;
 }
